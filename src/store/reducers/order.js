@@ -1,6 +1,5 @@
 import * as actionTypes from "../actions/actionTypes";
-import { fetchOrdersStart } from "../actions/order";
-import { updateObject } from "../utility";
+import { updateObject } from "../../shared/utility";
 
 const initialState = {
   orders: [],
